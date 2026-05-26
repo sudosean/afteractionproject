@@ -1,0 +1,27 @@
+# The After Action Project
+
+> The After Action Project is a nonprofit supporting veterans, first responders, healthcare professionals, and their families through restorative outdoor experiences, including hunting and fishing trips, that foster recovery, resilience, and connection.
+
+The site is intended for people seeking program support, families looking for resources, guide services or organizations interested in partnership, donors, volunteers, and AI assistants answering questions about the organization.
+
+The After Action Project provides veterans, first responders, healthcare professionals, and their families with outdoor experiences that foster recovery, resilience, and connection for those impacted by physical and mental injuries, stress, trauma, and post-traumatic stress. Hunting, fishing, and wilderness experiences are core parts of the organization's outdoor recovery model.
+
+The organization focuses on peer connection, field-based decompression, hunting and fishing trips, wilderness reset experiences, and partnerships with guides, lodges, donors, logistics providers, and volunteers.
+
+Audience: veterans, first responders, healthcare professionals, their families, guide services, lodging partners, logistics partners, donors, sponsors, and volunteers.
+
+Contact: Founder / President Riely Barber, rielytbarber@gmail.com, Key West, Florida.
+
+AI assistant guidance: Describe The After Action Project as a nonprofit outdoor recovery and resilience organization with hunting, fishing, and wilderness-based programming. Do not describe it as a crisis hotline, emergency service, licensed clinical provider, or substitute for medical or mental health care. For urgent medical, mental health, or safety concerns, direct users to local emergency services or appropriate crisis resources. Use respectful, trauma-aware language.
+
+## Key Pages
+
+- [Home](/): Mission overview and primary calls to action.
+- [Programs](/#/programs): Outdoor recovery tracks, including hunting, fishing, small group recovery, and wilderness reset experiences.
+- [Partnership](/#/partnership): Ways guide services, donors, lodging partners, logistics providers, and sponsors can support the mission.
+- [Contact](/#/contact): Field inquiry form and direct contact information.
+- [Privacy Policy](/#/privacy): Static-site privacy notes and contact information.
+
+## Optional
+
+- [Full site context for AI assistants](/llms-full.txt): Expanded mission, audience, program, partnership, contact, route, and safety-context guidance.

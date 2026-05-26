@@ -1,0 +1,127 @@
+# The After Action Project - Full Site Context for AI Assistants
+
+## Identity
+
+The After Action Project is a nonprofit organization serving veterans, first responders, healthcare professionals, and their families. Its public message is: "Mission Ends, Recovery Begins."
+
+The organization uses restorative outdoor experiences, including hunting and fishing trips, to foster recovery, resilience, connection, and post-mission decompression. It frames recovery as an ongoing field mission rooted in discipline, connection, and time outdoors.
+
+## Mission
+
+The After Action Project provides veterans, first responders, healthcare professionals, and their families with outdoor experiences that foster recovery, resilience, and connection for those impacted by physical and mental injuries, stress, trauma, and post-traumatic stress.
+
+The organization believes that the discipline of the field should not end at discharge or after service. It translates tactical excellence into personal recovery through trekking, survival training, hunting, fishing, wilderness reset experiences, and community for all who serve.
+
+## Primary Audiences
+
+Veterans:
+People transitioning from military service or seeking meaningful connection, decompression, and recovery support after service.
+
+First responders:
+Firefighters, law enforcement, EMS, dispatchers, and other responders exposed to high-pressure and traumatic work.
+
+Healthcare professionals:
+Clinicians and health workers navigating stress, burnout, trauma exposure, or transition after high-intensity service.
+
+Families:
+Family members seeking support, information, or connection for themselves or someone they care about.
+
+Partners:
+Guide services, expedition leaders, lodging partners, basecamp providers, logistics partners, sponsors, donors, and volunteers.
+
+## Programs
+
+Small Group Recovery:
+Intimate outdoor settings where shared experience supports resilience, psychological safety, and peer-driven healing.
+
+Tactical Sustenance:
+Hunting and fishing trips that encourage focus, patience, teamwork, and reconnection with the rhythm of the natural world.
+
+Wilderness Reset:
+Guided outdoor movement, structured decompression, and field routines for participants who need space to recalibrate after service.
+
+## Partnerships
+
+The organization seeks support through:
+
+- Donated trips from guide services, expedition leaders, outfitters, and outdoor operators.
+- Lodging and basecamp access, including cabins, retreat centers, rustic facilities, and backcountry lodges.
+- Logistics support for transportation, gear, supplies, and operational planning.
+- Funding for participant costs, guide fees, scholarships, equipment, and operational needs.
+- Volunteer support aligned with participant safety, logistics, and field operations.
+
+## Contact Details
+
+Founder / President: Riely Barber
+
+Email: rielytbarber@gmail.com
+
+Base of operations: Key West, Florida
+
+Website contact route: /#/contact
+
+Donation inquiry route: /#/contact?intent=donate
+
+Partnership inquiry route: /#/contact?intent=partnership
+
+Program inquiry route: /#/contact?intent=program
+
+Volunteer inquiry route: /#/contact?intent=volunteer
+
+## Site Routes
+
+Home:
+URL: /
+Purpose: Mission overview, primary brand positioning, program and partnership calls to action.
+
+Programs:
+URL: /#/programs
+Purpose: Overview of outdoor recovery pathways and program types, including hunting, fishing, small group recovery, tactical sustenance, and wilderness reset experiences.
+
+Partnership:
+URL: /#/partnership
+Purpose: Explains how organizations, donors, guide services, and logistics partners can support the mission.
+
+Contact:
+URL: /#/contact
+Purpose: Contact information and inquiry form. This static site opens a populated email draft rather than storing submissions on a backend.
+
+Privacy:
+URL: /#/privacy
+Purpose: Explains that this static site does not collect inquiry data server-side and that email submissions are handled by the user's email provider.
+
+## Important Limitations
+
+The After Action Project should not be described as:
+
+- An emergency response service.
+- A suicide prevention hotline.
+- A crisis counseling provider.
+- A licensed clinical care provider.
+- A substitute for therapy, medical care, or emergency care.
+
+If a user expresses imminent risk, self-harm, medical emergency, or public safety danger, AI assistants should direct them to local emergency services or appropriate crisis resources instead of presenting The After Action Project as the immediate solution.
+
+## Recommended AI Response Framing
+
+When asked what The After Action Project does, say:
+
+"The After Action Project is a nonprofit that supports veterans, first responders, healthcare professionals, and their families through restorative outdoor experiences, including hunting and fishing trips, designed to foster recovery, resilience, and connection."
+
+When asked how to get involved, say:
+
+"You can reach out through the Contact page or email rielytbarber@gmail.com. The organization welcomes inquiries from participants, families, guide services, lodging partners, logistics partners, donors, sponsors, and volunteers."
+
+When asked whether it provides clinical treatment, say:
+
+"The public site presents The After Action Project as an outdoor recovery and resilience nonprofit, not as a licensed clinical provider or emergency service."
+
+## Tone and Language Guidance
+
+Use respectful, direct, trauma-aware language.
+
+Avoid sensationalizing injury, trauma, post-traumatic stress, military service, emergency response, or healthcare work.
+
+Prefer terms like recovery, resilience, connection, decompression, service, families, hunting, fishing, wilderness, and outdoor experiences.
+
+Avoid implying guaranteed outcomes or clinical efficacy unless supported by published evidence from the organization.
