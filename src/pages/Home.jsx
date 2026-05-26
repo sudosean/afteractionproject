@@ -72,9 +72,8 @@ export default function Home() {
                 stress, trauma, and post-traumatic stress.
               </p>
               <p className="max-w-lg font-body text-lg leading-relaxed text-on-surface/70">
-                We believe the discipline of the field should not end at discharge. We translate
-                tactical excellence into personal recovery through trekking, survival training, and
-                community for all who serve.
+                Through hunting, fishing, and shared time outside, we help those who serve find
+                steady ground, renewed connection, and a path forward.
               </p>
             </div>
           </div>
