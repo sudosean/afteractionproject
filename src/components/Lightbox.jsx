@@ -4,6 +4,7 @@ import Icon from './Icon.jsx';
 
 export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
   const closeButtonRef = useRef(null);
+  const dialogRef = useRef(null);
 
   useEffect(() => {
     const previouslyFocusedElement = document.activeElement;
@@ -16,6 +17,20 @@ export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
         onNavigate(-1);
       } else if (event.key === 'ArrowRight') {
         onNavigate(1);
+      } else if (event.key === 'Tab') {
+        const focusableButtons = dialogRef.current?.querySelectorAll('button');
+        if (!focusableButtons || focusableButtons.length === 0) return;
+
+        const firstButton = focusableButtons[0];
+        const lastButton = focusableButtons[focusableButtons.length - 1];
+
+        if (event.shiftKey && document.activeElement === firstButton) {
+          event.preventDefault();
+          lastButton.focus();
+        } else if (!event.shiftKey && document.activeElement === lastButton) {
+          event.preventDefault();
+          firstButton.focus();
+        }
       }
     }
 
@@ -32,6 +47,7 @@ export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
     <div
       aria-modal="true"
       className="fixed inset-0 z-50 flex items-center justify-center bg-inverse-surface/90 p-4"
+      ref={dialogRef}
       role="dialog"
     >
       <button
