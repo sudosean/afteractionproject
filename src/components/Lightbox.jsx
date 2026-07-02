@@ -47,6 +47,11 @@ export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
     <div
       aria-modal="true"
       className="fixed inset-0 z-50 flex items-center justify-center bg-inverse-surface/90 p-4"
+      onClick={(event) => {
+        if (event.target === event.currentTarget) {
+          onClose();
+        }
+      }}
       ref={dialogRef}
       role="dialog"
     >
