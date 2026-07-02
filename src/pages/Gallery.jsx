@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import Lightbox from '../components/Lightbox.jsx';
 import PageHero from '../components/PageHero.jsx';
 import PhotoGrid from '../components/PhotoGrid.jsx';
@@ -13,11 +13,11 @@ export default function Gallery() {
     setActivePhoto({ countrySlug, index });
   }
 
-  function closePhoto() {
+  const closePhoto = useCallback(() => {
     setActivePhoto(null);
-  }
+  }, []);
 
-  function navigatePhoto(delta) {
+  const navigatePhoto = useCallback((delta) => {
     setActivePhoto((current) => {
       if (!current) return current;
       const country = galleryCountries.find((entry) => entry.slug === current.countrySlug);
@@ -25,7 +25,7 @@ export default function Gallery() {
       const nextIndex = (current.index + delta + total) % total;
       return { ...current, index: nextIndex };
     });
-  }
+  }, []);
 
   const activeCountry = activePhoto
     ? galleryCountries.find((entry) => entry.slug === activePhoto.countrySlug)

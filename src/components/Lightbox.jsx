@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import Icon from './Icon.jsx';
 
 export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
   const closeButtonRef = useRef(null);
 
   useEffect(() => {
+    const previouslyFocusedElement = document.activeElement;
     closeButtonRef.current?.focus();
 
     function handleKeyDown(event) {
@@ -18,12 +20,15 @@ export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
     }
 
     document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      previouslyFocusedElement?.focus();
+    };
   }, [onClose, onNavigate]);
 
   const photo = photos[activeIndex];
 
-  return (
+  return createPortal(
     <div
       aria-modal="true"
       className="fixed inset-0 z-50 flex items-center justify-center bg-inverse-surface/90 p-4"
@@ -62,6 +67,7 @@ export default function Lightbox({ activeIndex, onClose, onNavigate, photos }) {
       >
         <Icon className="text-4xl" name="chevron_right" />
       </button>
-    </div>
+    </div>,
+    document.body,
   );
 }
