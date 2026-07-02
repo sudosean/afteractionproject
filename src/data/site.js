@@ -3,6 +3,7 @@ export const contactEmail = 'rielytbarber@gmail.com';
 export const navLinks = [
   { label: 'Home', to: '/' },
   { label: 'Programs', to: '/programs' },
+  { label: 'Gallery', to: '/gallery' },
   { label: 'Partnership', to: '/partnership' },
   { label: 'Contact', to: '/contact' },
 ];

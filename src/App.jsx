@@ -3,6 +3,7 @@ import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './components/Footer.jsx';
 import Navigation from './components/Navigation.jsx';
 import Contact from './pages/Contact.jsx';
+import Gallery from './pages/Gallery.jsx';
 import Home from './pages/Home.jsx';
 import Partnership from './pages/Partnership.jsx';
 import Privacy from './pages/Privacy.jsx';
@@ -27,6 +28,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/programs" element={<Programs />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
